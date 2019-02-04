@@ -68,8 +68,6 @@ public class PlayerMovement : MonoBehaviour
         GetComponent<Rigidbody>().velocity = movement * 0;
         Destroy(gameObject, 0.0f);
         EndCanvas.SetActive(true);
-        
-
     }
     void FixedUpdate()
     {
