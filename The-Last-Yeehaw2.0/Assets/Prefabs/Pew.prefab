@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7056078415247762856}
   - component: {fileID: 7056078415247762857}
   - component: {fileID: 4987823793771989792}
+  - component: {fileID: 9201448705398278392}
   m_Layer: 0
   m_Name: Pew
-  m_TagString: Untagged
+  m_TagString: Pew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,5 +109,19 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
-  m_CollisionDetection: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
+--- !u!136 &9201448705398278392
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056078415247762859}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.245
+  m_Height: 1.3500004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
