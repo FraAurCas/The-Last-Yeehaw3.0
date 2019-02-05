@@ -14,12 +14,24 @@ public class PlayerMovement : MonoBehaviour
     public ZambieController zStartHealth;
     public GameObject Pew;
     public Transform shotSpawn;
-    public float fireRate;
+    public Transform shottySpawn1;
+    public Transform shottySpawn2;
+    public Transform shottySpawn3;
+    public Transform shottySpawn4;
+    public Transform shottySpawn5;
+    public Transform shottySpawn6;
+    public Transform shottySpawn7;
+    public Transform shottySpawn8;
+    public Transform shottySpawn9;
+    public Transform shottySpawn10;
+    public float pFireRate;
+    public float sFireRate;
 
     public float spawnTime = 3f;
     public Transform[] spawnPoints;
 
-    private float nextFire;
+    private float nextFireS;
+    private float nextFireP;
 
     void Awake()
     {
@@ -33,10 +45,24 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && Time.time > nextFire)
+        if (Input.GetKey(KeyCode.Space) && Time.time > nextFireP)
         {
-            nextFire = Time.time + fireRate;
+            nextFireP = Time.time + pFireRate;
             Instantiate(Pew, shotSpawn.position, shotSpawn.rotation);
+        }
+        else if (Input.GetKey(KeyCode.LeftControl) && Time.time > nextFireS)
+        {
+            nextFireS = Time.time + sFireRate;
+            Instantiate(Pew, shottySpawn1.position, shottySpawn1.rotation);
+            Instantiate(Pew, shottySpawn2.position, shottySpawn2.rotation);
+            Instantiate(Pew, shottySpawn3.position, shottySpawn3.rotation);
+            Instantiate(Pew, shottySpawn4.position, shottySpawn4.rotation);
+            Instantiate(Pew, shottySpawn5.position, shottySpawn5.rotation);
+            Instantiate(Pew, shottySpawn6.position, shottySpawn6.rotation);
+            Instantiate(Pew, shottySpawn7.position, shottySpawn7.rotation);
+            Instantiate(Pew, shottySpawn8.position, shottySpawn8.rotation);
+            Instantiate(Pew, shottySpawn9.position, shottySpawn9.rotation);
+            Instantiate(Pew, shottySpawn10.position, shottySpawn10.rotation);
         }
     }
 
