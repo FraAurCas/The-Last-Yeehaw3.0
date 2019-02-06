@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject Zambie;
     public ZambieController zStartHealth;
     public GameObject Pew;
+    public GameObject ShotPew;
+    public GameObject MachinePew;
     public Transform shotSpawn;
     public Transform shottySpawn1;
     public Transform shottySpawn2;
@@ -24,14 +26,17 @@ public class PlayerMovement : MonoBehaviour
     public Transform shottySpawn8;
     public Transform shottySpawn9;
     public Transform shottySpawn10;
+    public Transform machinePew;
     public float pFireRate;
     public float sFireRate;
+    public float mFireRate;
 
     public float spawnTime = 3f;
     public Transform[] spawnPoints;
 
     private float nextFireS;
     private float nextFireP;
+    private float nextFireM;
 
     void Awake()
     {
@@ -53,16 +58,21 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKey(KeyCode.LeftControl) && Time.time > nextFireS)
         {
             nextFireS = Time.time + sFireRate;
-            Instantiate(Pew, shottySpawn1.position, shottySpawn1.rotation);
-            Instantiate(Pew, shottySpawn2.position, shottySpawn2.rotation);
-            Instantiate(Pew, shottySpawn3.position, shottySpawn3.rotation);
-            Instantiate(Pew, shottySpawn4.position, shottySpawn4.rotation);
-            Instantiate(Pew, shottySpawn5.position, shottySpawn5.rotation);
-            Instantiate(Pew, shottySpawn6.position, shottySpawn6.rotation);
-            Instantiate(Pew, shottySpawn7.position, shottySpawn7.rotation);
-            Instantiate(Pew, shottySpawn8.position, shottySpawn8.rotation);
-            Instantiate(Pew, shottySpawn9.position, shottySpawn9.rotation);
-            Instantiate(Pew, shottySpawn10.position, shottySpawn10.rotation);
+            Instantiate(ShotPew, shottySpawn1.position, shottySpawn1.rotation);
+            Instantiate(ShotPew, shottySpawn2.position, shottySpawn2.rotation);
+            Instantiate(ShotPew, shottySpawn3.position, shottySpawn3.rotation);
+            Instantiate(ShotPew, shottySpawn4.position, shottySpawn4.rotation);
+            Instantiate(ShotPew, shottySpawn5.position, shottySpawn5.rotation);
+            Instantiate(ShotPew, shottySpawn6.position, shottySpawn6.rotation);
+            Instantiate(ShotPew, shottySpawn7.position, shottySpawn7.rotation);
+            Instantiate(ShotPew, shottySpawn8.position, shottySpawn8.rotation);
+            Instantiate(ShotPew, shottySpawn9.position, shottySpawn9.rotation);
+            Instantiate(ShotPew, shottySpawn10.position, shottySpawn10.rotation);
+        }
+        else if (Input.GetKey(KeyCode.LeftAlt) && Time.time > nextFireM)
+        {
+            nextFireM = Time.time + mFireRate;
+            Instantiate(MachinePew, machinePew.position, machinePew.rotation);
         }
     }
 

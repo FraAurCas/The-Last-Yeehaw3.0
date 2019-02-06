@@ -54,6 +54,14 @@ public class ZambieController : MonoBehaviour
         {
             TakeDamage(50);
         }
+        else if (collision.gameObject.tag == "sPew")
+        {
+            TakeDamage(101);
+        }
+        else if (collision.gameObject.tag == "mPew")
+        {
+            TakeDamage(34);
+        }
         else if (collision.gameObject.tag == "Player")
         {
             playerHealth.pTakeDamage(33);

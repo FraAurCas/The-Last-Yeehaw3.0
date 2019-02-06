@@ -7,6 +7,8 @@ TagManager:
   - Rock
   - Zambie
   - Pew
+  - sPew
+  - mPew
   layers:
   - Default
   - TransparentFX

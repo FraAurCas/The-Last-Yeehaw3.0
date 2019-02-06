@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 95145038}
   - component: {fileID: 95145039}
+  - component: {fileID: 95145040}
   m_Layer: 0
   m_Name: Cactus (7)
   m_TagString: Untagged
@@ -191,6 +192,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &95145040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95145037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: 0.000030517578, z: 0.0000034424856}
 --- !u!1 &181189507
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181189508}
   - component: {fileID: 181189509}
+  - component: {fileID: 181189510}
   m_Layer: 0
   m_Name: Rock (2)
   m_TagString: Rock
@@ -270,6 +285,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &181189510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181189507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3, z: 0.20000008}
+  m_Center: {x: 0.0000076293945, y: 0.000015258789, z: 0.00000017729872}
 --- !u!1 &184015053
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184015054}
   - component: {fileID: 184015055}
+  - component: {fileID: 184015056}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -349,6 +378,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &184015056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184015053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: -0.000011444092, z: 0.000003294877}
 --- !u!1 &252711556
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 252711557}
   - component: {fileID: 252711558}
+  - component: {fileID: 252711559}
   m_Layer: 0
   m_Name: Cactus (1)
   m_TagString: Untagged
@@ -428,6 +471,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &252711559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252711556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: -0.000030517578, z: 0.000003737705}
 --- !u!1 &269899242
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269899243}
   - component: {fileID: 269899244}
+  - component: {fileID: 269899245}
   m_Layer: 0
   m_Name: Cactus (2)
   m_TagString: Untagged
@@ -507,6 +564,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &269899245
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269899242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: -0.000030517578, z: 0.000003885316}
 --- !u!1 &332752625
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338463240}
   - component: {fileID: 338463241}
+  - component: {fileID: 338463242}
   m_Layer: 0
   m_Name: Rock (13)
   m_TagString: Rock
@@ -665,6 +736,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &338463242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338463239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 4, z: 0.20000008}
+  m_Center: {x: 0.3, y: -0.0000038146973, z: -0.000000046800324}
 --- !u!1 &339163859
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339163860}
   - component: {fileID: 339163861}
+  - component: {fileID: 339163862}
   m_Layer: 0
   m_Name: Rock (8)
   m_TagString: Rock
@@ -744,6 +829,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &339163862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339163859}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 3, z: 0.20000008}
+  m_Center: {x: 0.0000076293945, y: 0, z: 0.00000020423249}
 --- !u!1 &388570360
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 391639528}
   - component: {fileID: 391639529}
+  - component: {fileID: 391639530}
   m_Layer: 0
   m_Name: Rock (5)
   m_TagString: Rock
@@ -864,6 +963,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &391639530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391639527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3, z: 0.20000008}
+  m_Center: {x: -0.0000076293945, y: -0.0000076293945, z: -0.0000001676508}
 --- !u!1 &463962772
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,7 +987,7 @@ GameObject:
   - component: {fileID: 463962773}
   m_Layer: 0
   m_Name: shots (5)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -888,7 +1000,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463962772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.038, y: -0, z: -0.013}
+  m_LocalPosition: {x: 0.038, y: 0, z: -0.013}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 903994083}
@@ -986,6 +1098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577443720}
   - component: {fileID: 577443721}
+  - component: {fileID: 577443722}
   m_Layer: 0
   m_Name: Rock (1)
   m_TagString: Rock
@@ -1055,6 +1168,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &577443722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577443719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3, z: 0.20000008}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0.00000011175871}
 --- !u!1 &635766580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635766581}
   - component: {fileID: 635766582}
+  - component: {fileID: 635766583}
   m_Layer: 0
   m_Name: Rock (7)
   m_TagString: Rock
@@ -1134,6 +1261,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &635766583
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635766580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 3, z: 0.20000008}
+  m_Center: {x: 0, y: 0.000022888184, z: -0.000000085340616}
 --- !u!1 &658016825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,7 +1384,7 @@ GameObject:
   - component: {fileID: 672266251}
   m_Layer: 0
   m_Name: shots (6)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1257,7 +1397,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672266250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.005, y: -0, z: -0.015}
+  m_LocalPosition: {x: 0.005, y: 0, z: -0.015}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 903994083}
@@ -1273,6 +1413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 713142272}
   - component: {fileID: 713142273}
+  - component: {fileID: 713142274}
   m_Layer: 0
   m_Name: Rock (17)
   m_TagString: Rock
@@ -1342,6 +1483,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &713142274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713142271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 4, z: 0.20000008}
+  m_Center: {x: 0.3, y: -0.0000076293945, z: 0.00000010372014}
 --- !u!1 &753139668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,6 +1602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 821090321}
   - component: {fileID: 821090322}
+  - component: {fileID: 821090323}
   m_Layer: 0
   m_Name: Cactus (4)
   m_TagString: Untagged
@@ -1517,6 +1672,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &821090323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821090320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: 0.000030517578, z: 0.0000034424856}
 --- !u!1 &903994082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1009652643}
   - component: {fileID: 1009652644}
+  - component: {fileID: 1009652645}
   m_Layer: 0
   m_Name: Rock (11)
   m_TagString: Rock
@@ -1636,6 +1805,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1009652645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009652642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 3, z: 0.20000008}
+  m_Center: {x: -0.0000038146973, y: -0.0000076293945, z: -0.00000009467021}
 --- !u!1 &1074834896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,6 +1828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074834897}
   - component: {fileID: 1074834898}
+  - component: {fileID: 1074834899}
   m_Layer: 0
   m_Name: Cactus (5)
   m_TagString: Untagged
@@ -1715,6 +1898,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1074834899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074834896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: 0.0000038146973, z: 0.0000037377044}
 --- !u!1 &1093752612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,6 +1921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1093752613}
   - component: {fileID: 1093752614}
+  - component: {fileID: 1093752615}
   m_Layer: 0
   m_Name: Rock (6)
   m_TagString: Rock
@@ -1794,6 +1991,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1093752615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093752612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 3, z: 0.20000008}
+  m_Center: {x: 0, y: 0.0000019073486, z: -0.00000018827916}
 --- !u!1 &1127930401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,6 +2014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127930402}
   - component: {fileID: 1127930403}
+  - component: {fileID: 1127930404}
   m_Layer: 0
   m_Name: Rock (10)
   m_TagString: Rock
@@ -1873,6 +2084,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1127930404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127930401}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 3, z: 0.20000008}
+  m_Center: {x: 0, y: -0.0000076293945, z: 0.00000021094638}
 --- !u!1 &1221101668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,7 +2174,7 @@ GameObject:
   - component: {fileID: 1300037307}
   m_Layer: 0
   m_Name: shots (1)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1980,7 +2204,7 @@ GameObject:
   - component: {fileID: 1310424797}
   m_Layer: 0
   m_Name: shots (2)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2009,6 +2233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1323126418}
   - component: {fileID: 1323126419}
+  - component: {fileID: 1323126420}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Rock
@@ -2078,6 +2303,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1323126420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323126417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3, z: 0.20000008}
+  m_Center: {x: -0.000015258789, y: 0.000022888184, z: -0.0000002566918}
 --- !u!1 &1383364274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,6 +2326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383364275}
   - component: {fileID: 1383364276}
+  - component: {fileID: 1383364277}
   m_Layer: 0
   m_Name: Cactus (8)
   m_TagString: Untagged
@@ -2157,6 +2396,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1383364277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383364274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: 0.000005722046, z: 0.0000035900955}
 --- !u!1 &1385539697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2168,7 +2420,7 @@ GameObject:
   - component: {fileID: 1385539698}
   m_Layer: 0
   m_Name: shots (3)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2197,6 +2449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1427745541}
   - component: {fileID: 1427745542}
+  - component: {fileID: 1427745543}
   m_Layer: 0
   m_Name: Rock (9)
   m_TagString: Rock
@@ -2266,6 +2519,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1427745543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427745540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 3, z: 0.20000008}
+  m_Center: {x: 0, y: 0.00000047683716, z: 0.00000026680425}
 --- !u!1 &1428839377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,6 +2590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1459747562}
   - component: {fileID: 1459747563}
+  - component: {fileID: 1459747564}
   m_Layer: 0
   m_Name: Cactus (9)
   m_TagString: Untagged
@@ -2393,6 +2660,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1459747564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459747561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: 0.0000009536743, z: 0.000003885314}
 --- !u!1 &1487103137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1487103138}
   - component: {fileID: 1487103139}
+  - component: {fileID: 1487103140}
   m_Layer: 0
   m_Name: Rock (4)
   m_TagString: Rock
@@ -2472,6 +2753,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1487103140
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487103137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3, z: 0.20000008}
+  m_Center: {x: 0.000002861023, y: -0.0000076293945, z: 0.000000055307282}
 --- !u!1 &1497685120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2847,7 @@ Transform:
   m_Children:
   - {fileID: 1602335027}
   - {fileID: 903994083}
+  - {fileID: 1687125813}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 90}
@@ -2586,8 +2881,10 @@ MonoBehaviour:
   shottySpawn8: {fileID: 1943598433}
   shottySpawn9: {fileID: 2091580348}
   shottySpawn10: {fileID: 1554316504}
-  pFireRate: 0.4
+  machinePew: {fileID: 1687125813}
+  pFireRate: 0.5
   sFireRate: 2
+  mFireRate: 0.3333334
   spawnTime: 0.75
   spawnPoints:
   - {fileID: 1800029474}
@@ -2635,7 +2932,7 @@ GameObject:
   - component: {fileID: 1522612780}
   m_Layer: 0
   m_Name: shots (4)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2665,7 +2962,7 @@ GameObject:
   - component: {fileID: 1554316504}
   m_Layer: 0
   m_Name: shots (9)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2694,6 +2991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580340959}
   - component: {fileID: 1580340960}
+  - component: {fileID: 1580340961}
   m_Layer: 0
   m_Name: Rock (3)
   m_TagString: Rock
@@ -2763,6 +3061,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1580340961
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580340958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3, z: 0.20000008}
+  m_Center: {x: 0.0000076293945, y: -0.0000076293945, z: 0.00000018849869}
 --- !u!1 &1602335026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,6 +3114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614746022}
   - component: {fileID: 1614746023}
+  - component: {fileID: 1614746024}
   m_Layer: 0
   m_Name: Rock (15)
   m_TagString: Rock
@@ -2872,6 +3184,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1614746024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614746021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 4, z: 0.20000008}
+  m_Center: {x: 0.3, y: 0.000015258789, z: 0.00000008079769}
+--- !u!1 &1687125812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687125813}
+  m_Layer: 0
+  m_Name: MachinePews
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1687125813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687125812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.75, y: 45, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 1497685122}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1800029473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2882,6 +3237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800029474}
   - component: {fileID: 1800029475}
+  - component: {fileID: 1800029476}
   m_Layer: 0
   m_Name: Cactus (6)
   m_TagString: Untagged
@@ -2951,6 +3307,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1800029476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800029473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: 0.000015258789, z: 0.0000032948756}
 --- !u!1 &1889010899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,6 +3330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889010900}
   - component: {fileID: 1889010901}
+  - component: {fileID: 1889010902}
   m_Layer: 0
   m_Name: Rock (12)
   m_TagString: Rock
@@ -3030,6 +3400,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1889010902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889010899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 4, z: 0.20000008}
+  m_Center: {x: 0.3, y: -0.0000076293945, z: -0.00000023893335}
 --- !u!1 &1943598432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,7 +3424,7 @@ GameObject:
   - component: {fileID: 1943598433}
   m_Layer: 0
   m_Name: shots (7)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3054,7 +3437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943598432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0, z: -0.028}
+  m_LocalPosition: {x: -0.01, y: 0, z: -0.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 903994083}
@@ -3070,6 +3453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016930969}
   - component: {fileID: 2016930970}
+  - component: {fileID: 2016930971}
   m_Layer: 0
   m_Name: Rock (16)
   m_TagString: Rock
@@ -3139,6 +3523,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2016930971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016930968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 4, z: 0.20000008}
+  m_Center: {x: 0.3, y: 0.0000038146973, z: -0.00000020108246}
 --- !u!1 &2019432845
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,6 +3546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019432846}
   - component: {fileID: 2019432847}
+  - component: {fileID: 2019432848}
   m_Layer: 0
   m_Name: Cactus (3)
   m_TagString: Untagged
@@ -3218,6 +3616,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2019432848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019432845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: -0.000022888184, z: 0.000002852049}
 --- !u!1 &2033317005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3228,6 +3639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2033317006}
   - component: {fileID: 2033317007}
+  - component: {fileID: 2033317008}
   m_Layer: 0
   m_Name: Cactus (10)
   m_TagString: Untagged
@@ -3297,6 +3709,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2033317008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033317005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 8.450002, z: 0.20000005}
+  m_Center: {x: 0, y: -0.000015258789, z: 0.0000032107391}
 --- !u!1 &2091580347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3733,7 @@ GameObject:
   - component: {fileID: 2091580348}
   m_Layer: 0
   m_Name: shots (8)
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3338,7 +3763,7 @@ GameObject:
   - component: {fileID: 2112260266}
   m_Layer: 0
   m_Name: shots
-  m_TagString: Untagged
+  m_TagString: sPew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3367,6 +3792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115327633}
   - component: {fileID: 2115327634}
+  - component: {fileID: 2115327635}
   m_Layer: 0
   m_Name: Rock (14)
   m_TagString: Rock
@@ -3436,3 +3862,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2115327635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115327632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 4, z: 0.20000008}
+  m_Center: {x: 0.3, y: 0, z: 0.00000012012379}
