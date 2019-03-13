@@ -1,4 +1,3 @@
 This is the best game ever created, called "The Last Yeehaw."
 
-**When you load up unity, it is likely that the wrong scene will be opened up.
- At the top right, click File-->Open Scene then go into the scenes folder, and open DesertCowboy.unity.**
+**You might not want to launch through actual build. At the moment there is no reset, so you would have to relaunch every time. Just launch the Desert Cowboy scene in the scenes folder under Assets**
