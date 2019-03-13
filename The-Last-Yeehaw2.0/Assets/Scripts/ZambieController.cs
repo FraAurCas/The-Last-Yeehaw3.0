@@ -12,6 +12,7 @@ public class ZambieController : MonoBehaviour
     public int zHealth;
     public PlayerMovement playerHealth;
     public PlayerMovement pTakeDamage;
+    public PlayerMovement SetHUDtext;
     public GameObject Zambie;
     
 
@@ -60,11 +61,12 @@ public class ZambieController : MonoBehaviour
         }
         else if (collision.gameObject.tag == "mPew")
         {
-            TakeDamage(34);
+            TakeDamage(50);
         }
         else if (collision.gameObject.tag == "Player")
         {
             playerHealth.pTakeDamage(33);
+            playerHealth.SetHUDText();
         }
 
 

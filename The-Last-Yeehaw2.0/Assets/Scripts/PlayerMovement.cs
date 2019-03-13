@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -6,10 +7,17 @@ public class PlayerMovement : MonoBehaviour
     public int pHealth;
     public float speed;
 
+    public int ammoShot = 0;
+    public int ammoMachine = 0;
+
+
     public GameObject EndCanvas;
 
     bool isDead;
 
+    public GameObject ShotPickup;
+    public GameObject MachinePickup;
+    public GameObject HealthPickup;
     public GameObject Zambie;
     public ZambieController zStartHealth;
     public GameObject Pew;
@@ -30,9 +38,17 @@ public class PlayerMovement : MonoBehaviour
     public float pFireRate;
     public float sFireRate;
     public float mFireRate;
+    public Text shotPewT;
+    public Text machinePewT;
+    public Text healthT;
+    CapsuleCollider capsuleCollider;
 
-    public float spawnTime = 3f;
+    public float spawnTimeS = 10f;
+    public float spawnTimeZ = 3f;
+    public float spawnTimeM = 7f;
+    public float spawnTimeH = 15f;
     public Transform[] spawnPoints;
+    public Transform[] ammoSpawns;
 
     private float nextFireS;
     private float nextFireP;
@@ -45,17 +61,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("Spawn", spawnTime, spawnTime);
+        InvokeRepeating("SpawnZ", spawnTimeZ, spawnTimeZ);
+        InvokeRepeating("SpawnS", spawnTimeS, spawnTimeS);
+        InvokeRepeating("SpawnM", spawnTimeM, spawnTimeM);
+        InvokeRepeating("SpawnH", spawnTimeH, spawnTimeH);
+        SetHUDText();
+
     }
 
+    public void pTakeDamage(int damage)
+    {
+        pHealth -= damage;
+        if (pHealth <= 0)
+        {
+            isDead = true;
+            Death();
+        }
+    }
     void Update()
     {
         if (Input.GetKey(KeyCode.Space) && Time.time > nextFireP)
         {
             nextFireP = Time.time + pFireRate;
             Instantiate(Pew, shotSpawn.position, shotSpawn.rotation);
+
         }
-        else if (Input.GetKey(KeyCode.LeftControl) && Time.time > nextFireS)
+        else if (Input.GetKey(KeyCode.LeftControl) && Time.time > nextFireS && ammoShot > 0)
         {
             nextFireS = Time.time + sFireRate;
             Instantiate(ShotPew, shottySpawn1.position, shottySpawn1.rotation);
@@ -68,24 +99,41 @@ public class PlayerMovement : MonoBehaviour
             Instantiate(ShotPew, shottySpawn8.position, shottySpawn8.rotation);
             Instantiate(ShotPew, shottySpawn9.position, shottySpawn9.rotation);
             Instantiate(ShotPew, shottySpawn10.position, shottySpawn10.rotation);
+
+            ammoShot -= 1;
+            SetHUDText();
         }
-        else if (Input.GetKey(KeyCode.LeftAlt) && Time.time > nextFireM)
+        else if (Input.GetKey(KeyCode.LeftShift) && Time.time > nextFireM && ammoMachine > 0)
         {
             nextFireM = Time.time + mFireRate;
             Instantiate(MachinePew, machinePew.position, machinePew.rotation);
+            ammoMachine -= 1;
+            SetHUDText();
         }
     }
 
-    public void pTakeDamage(int amount)
+    void OnCollisionEnter(Collision collision)
     {
-        pHealth -= amount;
-        if(pHealth <= 0 && !isDead)
+        ContactPoint contact = collision.contacts[0];
+        if (collision.gameObject.tag == "sPickup")
         {
-            Death();
+            ammoShot += 4;
+            SetHUDText();
+        }
+        else if (collision.gameObject.tag == "mPickup")
+        {
+            ammoMachine += 10;
+            SetHUDText();
+        }
+        else if (collision.gameObject.tag == "hPickup" && pHealth <99)
+        {
+            pHealth += 33;
+            SetHUDText();
         }
     }
+    
 
-    void Spawn()
+    void SpawnZ()
     {
         if (pHealth <= 0f)
         {
@@ -93,8 +141,44 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (pHealth > 0f)
         {
-            int spawnPointIndex = Random.Range(0, spawnPoints.Length);
-            Instantiate(Zambie, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+            int spawnPointIndexZ = Random.Range(0, spawnPoints.Length);
+            Instantiate(Zambie, spawnPoints[spawnPointIndexZ].position, spawnPoints[spawnPointIndexZ].rotation);
+        }
+    }
+    void SpawnS()
+    {
+        if (pHealth <= 0f)
+        {
+            return;
+        }
+        else if (pHealth > 0f)
+        {
+            int spawnPointIndexS = Random.Range(0, ammoSpawns.Length);
+            Instantiate(ShotPickup, ammoSpawns[spawnPointIndexS].position, ammoSpawns[spawnPointIndexS].rotation);
+        }
+    }
+    void SpawnM()
+    {
+        if (pHealth <= 0f)
+        {
+            return;
+        }
+        else if (pHealth > 0f)
+        {
+            int spawnPointIndexS = Random.Range(0, ammoSpawns.Length);
+            Instantiate(MachinePickup, ammoSpawns[spawnPointIndexS].position, ammoSpawns[spawnPointIndexS].rotation);
+        }
+    }
+    void SpawnH()
+    {
+        if (pHealth <= 0f)
+        {
+            return;
+        }
+        else if (pHealth > 0f)
+        {
+            int spawnPointIndexS = Random.Range(0, ammoSpawns.Length);
+            Instantiate(HealthPickup, ammoSpawns[spawnPointIndexS].position, ammoSpawns[spawnPointIndexS].rotation);
         }
     }
     void Death()
@@ -104,6 +188,12 @@ public class PlayerMovement : MonoBehaviour
         GetComponent<Rigidbody>().velocity = movement * 0;
         Destroy(gameObject, 0.0f);
         EndCanvas.SetActive(true);
+    }
+    public void SetHUDText()
+    {
+        healthT.text = "Health: " + pHealth.ToString();
+        machinePewT.text = "Machine Pew: " + ammoMachine.ToString();
+        shotPewT.text = "Shot Pew: " + ammoShot.ToString();
     }
     void FixedUpdate()
     {

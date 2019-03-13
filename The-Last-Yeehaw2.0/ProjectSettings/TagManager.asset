@@ -9,6 +9,9 @@ TagManager:
   - Pew
   - sPew
   - mPew
+  - sPickup
+  - mPickup
+  - hPickup
   layers:
   - Default
   - TransparentFX
